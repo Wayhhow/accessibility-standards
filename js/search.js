@@ -1,4 +1,11 @@
 /**
+ * 橙光队无障碍督导标准查询 - 搜索功能
+ * Copyright © 2025 南方科技大学致诚书院"橙光"志愿服务队 (Wayhhow)
+ * Licensed under MIT
+ * https://github.com/Wayhhow/accessibility-standards
+ */
+
+/**
  * search.js
  * Search Module - full-text search with debounce and highlighting
  */

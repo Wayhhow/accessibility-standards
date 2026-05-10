@@ -1,4 +1,11 @@
 /**
+ * 橙光队无障碍督导标准查询 - 主应用逻辑
+ * Copyright © 2025 南方科技大学致诚书院"橙光"志愿服务队 (Wayhhow)
+ * Licensed under MIT
+ * https://github.com/Wayhhow/accessibility-standards
+ */
+
+/**
  * app.js
  * Main Application - initialization, data loading, PDF helper
  */
