@@ -1,6 +1,6 @@
 /**
  * 橙光队无障碍督导标准查询 - 常见问题数据与渲染
- * Copyright © 2025 南方科技大学致诚书院"橙光"志愿服务队 (Wayhhow)
+ * Copyright © 2025 Wayhhow
  * Licensed under MIT
  * https://github.com/Wayhhow/accessibility-standards
  */
