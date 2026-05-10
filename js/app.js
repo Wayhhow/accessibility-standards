@@ -12,7 +12,18 @@
    * @param {number} page - page number (1-based)
    */
   window.openPdf = function (pdfFile, page) {
-    const viewerUrl = `pdf/lib/web/viewer.html?file=../${encodeURIComponent(pdfFile)}#page=${page}`;
+    // pdfFile is like "pdf/gb55019-2021.pdf"
+    // viewer.html is at "pdf/lib/web/viewer.html"
+    // From viewer.html, pdf/gb55019-2021.pdf is at "../../gb55019-2021.pdf" (go up 2 levels: web/ -> lib/ -> pdf/)
+    // Or we can use absolute path: "/pdf/gb55019-2021.pdf"
+    let fileParam;
+    if (pdfFile.startsWith('pdf/')) {
+      // Convert "pdf/xxx.pdf" to "../../xxx.pdf" relative to viewer.html
+      fileParam = '../../' + pdfFile.substring(4);
+    } else {
+      fileParam = '../' + pdfFile;
+    }
+    const viewerUrl = `pdf/lib/web/viewer.html?file=${encodeURIComponent(fileParam)}#page=${page}`;
     window.open(viewerUrl, '_blank', 'noopener,noreferrer');
   };
 

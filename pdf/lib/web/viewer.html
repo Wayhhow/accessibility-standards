@@ -73,19 +73,8 @@
         return;
       }
 
-      // Resolve the PDF file path
-      // viewer.html is at /pdf/lib/web/viewer.html
-      // PDF files are at /pdf/xxx.pdf
-      // fileParam is like "../gb55019-2021.pdf" which resolves to "/pdf/lib/gb55019-2021.pdf" (wrong)
-      // We need to go from /pdf/lib/web/ to /pdf/ = go up 2 levels
-      let pdfUrl;
-      if (fileParam.startsWith('../')) {
-        // Remove the leading ../ and construct correct path from root
-        const pdfName = fileParam.replace(/^\.\.\//, '');
-        pdfUrl = new URL('/pdf/' + pdfName, window.location.origin).href;
-      } else {
-        pdfUrl = new URL(fileParam, window.location.href).href;
-      }
+      // Resolve the PDF file path relative to this viewer
+      const pdfUrl = new URL(fileParam, window.location.href).href;
 
       let pdfDoc = null;
       let currentPage = hashPage;
