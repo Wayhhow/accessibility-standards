@@ -136,7 +136,12 @@
           const ctx = canvas.getContext('2d');
           canvas.height = viewport.height;
           canvas.width = viewport.width;
-          canvas.style.maxWidth = '100%';
+          // 放大超过屏幕宽度时允许横向滚动
+          if (scale > 1.5) {
+            canvas.style.maxWidth = 'none';
+          } else {
+            canvas.style.maxWidth = '100%';
+          }
           canvas.style.height = 'auto';
 
           container.innerHTML = '';
