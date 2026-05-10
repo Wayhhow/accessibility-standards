@@ -326,11 +326,11 @@ const CommonIssues = (() => {
         </div>
         <div class="issue-card-body" id="issue-body-${issue.id}">
           <div class="issue-check-points">
-            <h4>检查要点</h4>
+            <h3>检查要点</h3>
             <ul>${checkPointsHtml}</ul>
           </div>
           <div class="issue-related-clauses">
-            <h4>关联标准条文</h4>
+            <h3>关联标准条文</h3>
             ${relatedClausesHtml}
           </div>
         </div>
@@ -380,10 +380,11 @@ const CommonIssues = (() => {
       const std = window.standardsData.standards.find(s => s.id === standardId);
       if (std) return std.pdfFile;
     }
-    // Fallback
+    // Fallback - 包含所有三个标准的映射
     const map = {
       'gb55019': 'pdf/gb55019-2021.pdf',
-      'gb50763': 'pdf/gb50763-2012.pdf'
+      'gb50763': 'pdf/gb50763-2012.pdf',
+      'sjg103': 'pdf/sjg103-2021.pdf'
     };
     return map[standardId] || 'pdf/gb55019-2021.pdf';
   }

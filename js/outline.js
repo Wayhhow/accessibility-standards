@@ -218,52 +218,117 @@ const Outline = (() => {
 
   /**
    * Bind toggle events for chapter and section headers
+   * Includes localStorage persistence for expand state
    */
   function bindToggleEvents() {
+    // 恢复保存的展开状态
+    restoreExpandState();
+
     // Chapter toggles
     document.querySelectorAll('.outline-chapter-header').forEach(header => {
-      const toggle = () => {
-        const body = header.nextElementSibling;
-        const toggleIcon = header.querySelector('.outline-toggle');
-        const isOpen = body.classList.contains('open');
-
-        if (isOpen) {
-          body.classList.remove('open');
-          toggleIcon.classList.remove('open');
-          header.classList.remove('open');
-          header.setAttribute('aria-expanded', 'false');
-        } else {
-          body.classList.add('open');
-          toggleIcon.classList.add('open');
-          header.classList.add('open');
-          header.setAttribute('aria-expanded', 'true');
-        }
-      };
-
-      header.addEventListener('click', toggle);
+      const body = header.nextElementSibling;
+      const toggleIcon = header.querySelector('.outline-toggle');
+      const chapterId = body ? body.id : '';
+      
+      header.addEventListener('click', () => {
+        if (!body) return;
+        const isOpen = body.classList.toggle('open');
+        if (toggleIcon) toggleIcon.classList.toggle('open', isOpen);
+        header.classList.toggle('open', isOpen);
+        header.setAttribute('aria-expanded', String(isOpen));
+        // 保存展开状态
+        if (chapterId) saveExpandState(chapterId, isOpen);
+      });
     });
 
     // Section toggles
     document.querySelectorAll('.outline-section-header').forEach(header => {
-      const toggle = () => {
-        const body = header.nextElementSibling;
-        const toggleIcon = header.querySelector('.outline-toggle');
-        const isOpen = body.classList.contains('open');
+      const body = header.nextElementSibling;
+      const toggleIcon = header.querySelector('.outline-toggle');
+      const sectionId = body ? body.id : '';
+      
+      header.addEventListener('click', () => {
+        if (!body) return;
+        const isOpen = body.classList.toggle('open');
+        if (toggleIcon) toggleIcon.classList.toggle('open', isOpen);
+        header.classList.toggle('open', isOpen);
+        header.setAttribute('aria-expanded', String(isOpen));
+        // 保存展开状态
+        if (sectionId) saveExpandState(sectionId, isOpen);
+      });
+    });
+  }
 
-        if (isOpen) {
-          body.classList.remove('open');
-          toggleIcon.classList.remove('open');
-          header.classList.remove('open');
-          header.setAttribute('aria-expanded', 'false');
-        } else {
+  /**
+   * Save expand state to localStorage
+   * @param {string} id - element id
+   * @param {boolean} isOpen - expand state
+   */
+  function saveExpandState(id, isOpen) {
+    try {
+      const state = JSON.parse(localStorage.getItem('outlineExpandState') || '{}');
+      if (isOpen) {
+        state[id] = true;
+      } else {
+        delete state[id];
+      }
+      localStorage.setItem('outlineExpandState', JSON.stringify(state));
+    } catch (e) {
+      // localStorage不可用时忽略
+    }
+  }
+
+  /**
+   * Restore expand state from localStorage
+   */
+  function restoreExpandState() {
+    try {
+      const state = JSON.parse(localStorage.getItem('outlineExpandState') || '{}');
+      Object.keys(state).forEach(id => {
+        const body = document.getElementById(id);
+        if (body) {
           body.classList.add('open');
-          toggleIcon.classList.add('open');
-          header.classList.add('open');
-          header.setAttribute('aria-expanded', 'true');
+          const header = body.previousElementSibling;
+          if (header) {
+            header.classList.add('open');
+            header.setAttribute('aria-expanded', 'true');
+            const toggle = header.querySelector('.outline-toggle');
+            if (toggle) toggle.classList.add('open');
+          }
         }
-      };
+      });
+    } catch (e) {
+      // 忽略错误
+    }
+  }
 
-      header.addEventListener('click', toggle);
+  /**
+   * Expand all chapters and sections
+   */
+  function expandAll() {
+    document.querySelectorAll('.outline-chapter-body, .outline-section-body').forEach(body => {
+      body.classList.add('open');
+      const id = body.id;
+      if (id) saveExpandState(id, true);
+    });
+    document.querySelectorAll('.outline-toggle, .outline-chapter-header, .outline-section-header').forEach(el => {
+      el.classList.add('open');
+      if (el.hasAttribute('aria-expanded')) el.setAttribute('aria-expanded', 'true');
+    });
+  }
+
+  /**
+   * Collapse all chapters and sections
+   */
+  function collapseAll() {
+    document.querySelectorAll('.outline-chapter-body, .outline-section-body').forEach(body => {
+      body.classList.remove('open');
+      const id = body.id;
+      if (id) saveExpandState(id, false);
+    });
+    document.querySelectorAll('.outline-toggle, .outline-chapter-header, .outline-section-header').forEach(el => {
+      el.classList.remove('open');
+      if (el.hasAttribute('aria-expanded')) el.setAttribute('aria-expanded', 'false');
     });
   }
 
@@ -313,5 +378,5 @@ const Outline = (() => {
     return div.innerHTML;
   }
 
-  return { init };
+  return { init, expandAll, collapseAll };
 })();

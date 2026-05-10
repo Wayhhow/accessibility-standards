@@ -92,11 +92,15 @@ const Search = (() => {
 
   /**
    * Search entries by query
+   * Supports space-separated keywords (all keywords must match)
    * @param {string} query
    * @returns {Array} matched and sorted entries
    */
   function searchEntries(query) {
-    const lowerQuery = query.toLowerCase();
+    // 支持空格分词：将查询拆分为多个关键词
+    const keywords = query.toLowerCase().split(/\s+/).filter(k => k.length > 0);
+    if (keywords.length === 0) return [];
+    
     const results = [];
 
     for (const entry of searchIndex) {
@@ -106,33 +110,41 @@ const Search = (() => {
       const sectionLower = (entry.sectionTitle || '').toLowerCase();
       const standardLower = (entry.standardName || '').toLowerCase();
 
-      // Check various fields
-      const textMatch = textLower.includes(lowerQuery);
-      const numberMatch = numberLower.includes(lowerQuery);
-      const chapterMatch = chapterLower.includes(lowerQuery);
-      const sectionMatch = sectionLower.includes(lowerQuery);
-      const standardMatch = standardLower.includes(lowerQuery);
+      // 检查每个关键词是否匹配（AND逻辑：所有关键词都必须匹配）
+      let allMatch = true;
+      let totalScore = 0;
+      
+      for (const keyword of keywords) {
+        const textMatch = textLower.includes(keyword);
+        const numberMatch = numberLower.includes(keyword);
+        const chapterMatch = chapterLower.includes(keyword);
+        const sectionMatch = sectionLower.includes(keyword);
+        const standardMatch = standardLower.includes(keyword);
 
-      if (textMatch || numberMatch || chapterMatch || sectionMatch || standardMatch) {
-        // Calculate relevance score
-        let score = 0;
-        if (numberMatch) score += 10; // Exact clause number match is highest priority
-        if (numberLower === lowerQuery) score += 20; // Exact clause number
-        if (chapterMatch) score += 3;
-        if (sectionMatch) score += 3;
-        if (standardMatch) score += 2;
-        if (textMatch) score += 5;
-
-        // Count occurrences in text for additional scoring
-        let occurrences = 0;
-        let pos = textLower.indexOf(lowerQuery);
-        while (pos !== -1) {
-          occurrences++;
-          pos = textLower.indexOf(lowerQuery, pos + 1);
+        if (!textMatch && !numberMatch && !chapterMatch && !sectionMatch && !standardMatch) {
+          allMatch = false;
+          break;
         }
-        score += occurrences;
 
-        results.push({ ...entry, score });
+        // 计算每个关键词的得分
+        if (numberMatch) totalScore += 10;
+        if (numberLower === keyword) totalScore += 20;
+        if (chapterMatch) totalScore += 3;
+        if (sectionMatch) totalScore += 3;
+        if (standardMatch) totalScore += 2;
+        if (textMatch) {
+          totalScore += 5;
+          // 统计出现次数
+          let pos = textLower.indexOf(keyword);
+          while (pos !== -1) {
+            totalScore++;
+            pos = textLower.indexOf(keyword, pos + 1);
+          }
+        }
+      }
+
+      if (allMatch) {
+        results.push({ ...entry, score: totalScore });
       }
     }
 

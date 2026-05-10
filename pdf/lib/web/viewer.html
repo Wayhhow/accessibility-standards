@@ -61,6 +61,8 @@
     <button id="zoom-out" title="缩小">-</button>
     <span id="zoom-level">100%</span>
     <button id="zoom-in" title="放大">+</button>
+    <button id="rotate-left" title="逆时针旋转">&#8634;</button>
+    <button id="rotate-right" title="顺时针旋转">&#8635;</button>
     <button id="back-btn" title="返回">&#8592; 返回</button>
   </div>
   <div id="loading"><div class="spinner"></div>正在加载 PDF...</div>
@@ -71,7 +73,14 @@
     (function() {
       const urlParams = new URLSearchParams(window.location.search);
       const fileParam = urlParams.get('file');
-      const hashPage = parseInt(window.location.hash.replace('#page=', '')) || 1;
+      
+      // 更精确的页码解析
+      function getPageFromHash() {
+        const hash = window.location.hash;
+        const match = hash.match(/page=(\d+)/);
+        return match ? parseInt(match[1]) : 1;
+      }
+      const hashPage = getPageFromHash();
 
       if (!fileParam) {
         document.getElementById('loading').innerHTML = '<p id="error">未指定 PDF 文件</p>';
@@ -85,6 +94,7 @@
       let pdfDoc = null;
       let currentPage = hashPage;
       let scale = 1.5;
+      let rotation = 0; // 旋转角度
       let rendering = false;
 
       const container = document.getElementById('viewer-container');
@@ -95,6 +105,8 @@
       const zoomInBtn = document.getElementById('zoom-in');
       const zoomOutBtn = document.getElementById('zoom-out');
       const zoomLevel = document.getElementById('zoom-level');
+      const rotateLeftBtn = document.getElementById('rotate-left');
+      const rotateRightBtn = document.getElementById('rotate-right');
       const backBtn = document.getElementById('back-btn');
       const loading = document.getElementById('loading');
 
@@ -119,7 +131,7 @@
         rendering = true;
 
         pdfDoc.getPage(num).then(function(page) {
-          const viewport = page.getViewport({ scale: scale });
+          const viewport = page.getViewport({ scale: scale, rotation: rotation });
           const canvas = document.createElement('canvas');
           const ctx = canvas.getContext('2d');
           canvas.height = viewport.height;
@@ -175,6 +187,16 @@
 
       zoomOutBtn.addEventListener('click', function() {
         scale = Math.max(scale - 0.25, 0.5);
+        renderPage(currentPage);
+      });
+
+      rotateLeftBtn.addEventListener('click', function() {
+        rotation = (rotation - 90 + 360) % 360;
+        renderPage(currentPage);
+      });
+
+      rotateRightBtn.addEventListener('click', function() {
+        rotation = (rotation + 90) % 360;
         renderPage(currentPage);
       });
 
