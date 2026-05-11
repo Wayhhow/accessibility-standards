@@ -57,6 +57,23 @@ const commonIssues = [
     ]
   },
   {
+    id: "blind-road-obstacle-distance",
+    category: "盲道",
+    title: "盲道与障碍物距离不足",
+    description: "盲道距围墙、绿化带、树池、路缘石、电线杆等障碍物距离不符合标准",
+    checkPoints: [
+      "检查盲道距围墙、花台、绿化带是否为250mm-500mm",
+      "检查盲道距树池边缘是否为250mm-500mm",
+      "检查盲道与路缘石距离：同一水平面时不小于500mm，低于路缘石时不小于250mm",
+      "检查盲道是否避开了电线杆、路灯杆、拉线等障碍物",
+      "检查盲道是否避开了非机动车停放位置"
+    ],
+    relatedClauses: [
+      { standardId: "gb50763", standardName: "GB 50763-2012", clauseNumber: "3.2.2", text: "行进盲道宜在距围墙、花台、绿化带250mm-500mm处设置；行进盲道宜在距树池边缘250mm-500mm处设置；盲道应避开树木(穴)、电线杆、拉线等障碍物。", page: 18 },
+      { standardId: "gb55019", standardName: "GB 55019-2021", clauseNumber: "2.11.2", text: "盲道铺设应避开障碍物，任何设施不得占用盲道。", page: 6 }
+    ]
+  },
+  {
     id: "curb-ramp-missing",
     category: "缘石坡道",
     title: "缘石坡道缺失",
