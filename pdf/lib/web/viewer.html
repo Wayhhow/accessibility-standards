@@ -113,8 +113,28 @@
       // Configure PDF.js
       pdfjsLib.GlobalWorkerOptions.workerSrc = '../build/pdf.worker.js';
 
-      // Load PDF
-      const loadingTask = pdfjsLib.getDocument(pdfUrl);
+      // Load PDF with optimization settings
+      // disableAutoFetch: 只加载当前需要的分片，而非整个文件
+      // disableStream: 禁用流式加载，使用 Range 请求
+      // rangeChunkSize: 设置分片大小为 64KB
+      const loadingTask = pdfjsLib.getDocument({
+        url: pdfUrl,
+        disableAutoFetch: true,
+        disableStream: false,
+        rangeChunkSize: 65536
+      });
+
+      // 显示加载进度
+      loadingTask.onProgress = function(progress) {
+        if (progress.total > 0) {
+          const percent = Math.round((progress.loaded / progress.total) * 100);
+          loading.innerHTML = `
+            <div class="spinner"></div>
+            <p>正在加载 PDF... ${percent}%</p>
+          `;
+        }
+      };
+
       loadingTask.promise.then(function(pdf) {
         pdfDoc = pdf;
         pageCount.textContent = pdf.numPages;
