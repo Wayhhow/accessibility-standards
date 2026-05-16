@@ -87,45 +87,46 @@
   }
 
   /**
-   * Preload PDF files to cache for faster access
+   * Preload a specific PDF file when user clicks on it
    * This works together with Service Worker to cache PDF files
+   * @param {string} pdfFile - the PDF file path to preload
    */
-  function preloadPdfFiles() {
-    // Check if Service Worker is supported and registered
+  function preloadPdfFile(pdfFile) {
+    // Check if Service Worker is supported
     if (!('serviceWorker' in navigator)) {
-      console.log('[Preload] Service Worker not supported, skipping PDF preload');
+      console.log('[Preload] Service Worker not supported');
       return;
     }
 
-    const pdfFiles = [
-      'pdf/gb55019-2021.pdf',
-      'pdf/gb50763-2012.pdf',
-      'pdf/sjg103-2021.pdf'
-    ];
+    console.log('[Preload] Preloading PDF:', pdfFile);
 
-    console.log('[Preload] Starting PDF preloading...');
+    // Use HEAD request to trigger Service Worker caching without downloading full file
+    fetch(pdfFile, { method: 'HEAD' })
+      .then((response) => {
+        if (response.ok) {
+          console.log('[Preload] PDF preloaded successfully:', pdfFile);
+        }
+      })
+      .catch((err) => {
+        console.warn('[Preload] PDF preload error:', pdfFile, err.message);
+      });
+  }
 
-    // Preload PDF files with low priority
-    pdfFiles.forEach((file, index) => {
-      // Use setTimeout to stagger requests and not block other resources
-      setTimeout(() => {
-        fetch(file, {
-          method: 'GET',
-          priority: 'low'  // 低优先级，不阻塞其他资源
-        })
-          .then((response) => {
-            if (response.ok) {
-              console.log(`[Preload] PDF ${index + 1}/${pdfFiles.length} preloaded: ${file}`);
-            } else {
-              console.warn(`[Preload] PDF ${index + 1} preload failed: ${file}`, response.status);
-            }
-          })
-          .catch((err) => {
-            // Silent fail - preloading is optional
-            console.warn(`[Preload] PDF ${index + 1} preload error: ${file}`, err.message);
-          });
-      }, index * 2000); // 每 2 秒加载一个，避免网络拥塞
-    });
+  /**
+   * Check if a PDF file is already cached
+   * @param {string} pdfFile - the PDF file path to check
+   * @returns {Promise<boolean>}
+   */
+  async function isPdfCached(pdfFile) {
+    if (!('caches' in window)) return false;
+    
+    try {
+      const cache = await caches.open('accessibility-standards-pdf-cache-v1');
+      const response = await cache.match(pdfFile);
+      return !!response;
+    } catch (e) {
+      return false;
+    }
   }
 
   /**
@@ -184,9 +185,8 @@
       }
     });
 
-    // Start preloading PDF files after initial page load
-    // Delay to ensure critical resources are loaded first
-    setTimeout(preloadPdfFiles, 3000);
+    // Note: Removed automatic PDF preloading to avoid blocking mobile network
+    // PDF files are now cached on-demand when user clicks to view them
   }
 
   // Initialize when DOM is ready

@@ -14,20 +14,13 @@ const PDF_FILES = [
   '/pdf/sjg103-2021.pdf'
 ];
 
-// 安装时预缓存 PDF 文件
+// 安装时跳过预缓存，改为按需缓存
+// 避免在移动端安装时占用大量带宽
 self.addEventListener('install', (event) => {
   console.log('[Service Worker] Installing...');
-  event.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => {
-      console.log('[Service Worker] Caching PDF files...');
-      return cache.addAll(PDF_FILES);
-    }).then(() => {
-      console.log('[Service Worker] PDF files cached successfully');
-      return self.skipWaiting();
-    }).catch((error) => {
-      console.error('[Service Worker] Cache failed:', error);
-    })
-  );
+  // Skip pre-caching to avoid blocking mobile network on first install
+  // PDFs will be cached on-demand when user accesses them
+  self.skipWaiting();
 });
 
 // 激活时清理旧缓存
