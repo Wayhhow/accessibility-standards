@@ -1809,17 +1809,24 @@ mark {
 
   .search-box {
     max-width: 100%;
-    flex-direction: column;
-    gap: 8px;
+    flex-direction: row;
+    gap: 6px;
   }
 
   .search-input-wrapper {
-    width: 100%;
+    flex: 1;
+    min-width: 0;
   }
 
   .search-btn {
-    width: 100%;
-    justify-content: center;
+    flex-shrink: 0;
+    padding: 8px 12px;
+    min-height: 40px;
+    font-size: 0.8rem;
+  }
+
+  .search-btn span {
+    display: none;
   }
 
   .section-title {
