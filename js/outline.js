@@ -22,6 +22,7 @@ const Outline = (() => {
     standardsData = data.standards || [];
     renderTabs();
     renderOutline();
+    bindExpandCollapseButtons();
   }
 
   /**
@@ -337,6 +338,21 @@ const Outline = (() => {
       el.classList.remove('open');
       if (el.hasAttribute('aria-expanded')) el.setAttribute('aria-expanded', 'false');
     });
+  }
+
+  /**
+   * Bind expand/collapse all buttons
+   */
+  function bindExpandCollapseButtons() {
+    const expandBtn = document.getElementById('expand-all-btn');
+    const collapseBtn = document.getElementById('collapse-all-btn');
+
+    if (expandBtn) {
+      expandBtn.addEventListener('click', expandAll);
+    }
+    if (collapseBtn) {
+      collapseBtn.addEventListener('click', collapseAll);
+    }
   }
 
   /**

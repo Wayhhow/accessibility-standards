@@ -1565,7 +1565,7 @@
       "page": 5,
       "chapterTitle": "总则",
       "sectionTitle": "",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -1579,7 +1579,7 @@
       "page": 5,
       "chapterTitle": "总则",
       "sectionTitle": "",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -2097,7 +2097,7 @@
       "page": 10,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "缘石坡道",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -2111,7 +2111,7 @@
       "page": 14,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "缘石坡道",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -2125,7 +2125,7 @@
       "page": 14,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "缘石坡道",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -2139,7 +2139,7 @@
       "page": 14,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "盲道",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -2153,7 +2153,7 @@
       "page": 18,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "盲道",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -2167,7 +2167,7 @@
       "page": 19,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "盲道",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -2195,7 +2195,7 @@
       "page": 20,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍出入口",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -2209,7 +2209,7 @@
       "page": 21,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍出入口",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -2237,7 +2237,7 @@
       "page": 22,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "轮椅坡道",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -2265,7 +2265,7 @@
       "page": 23,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "轮椅坡道",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -2279,7 +2279,7 @@
       "page": 23,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "轮椅坡道",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -2293,7 +2293,7 @@
       "page": 24,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "轮椅坡道",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -2307,7 +2307,7 @@
       "page": 24,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "轮椅坡道",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -2321,7 +2321,7 @@
       "page": 24,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "轮椅坡道",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -2335,7 +2335,7 @@
       "page": 24,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍通道、门",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -2349,7 +2349,7 @@
       "page": 25,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍通道、门",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -2363,7 +2363,7 @@
       "page": 25,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍通道、门",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -2377,7 +2377,7 @@
       "page": 27,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍楼梯、台阶",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -2391,7 +2391,7 @@
       "page": 28,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍楼梯、台阶",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -2405,7 +2405,7 @@
       "page": 29,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍电梯、升降平台",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -2419,7 +2419,7 @@
       "page": 30,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍电梯、升降平台",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -2447,7 +2447,7 @@
       "page": 31,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "扶手",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -2461,7 +2461,7 @@
       "page": 31,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "扶手",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -2475,7 +2475,7 @@
       "page": 32,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "扶手",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -2489,7 +2489,7 @@
       "page": 32,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "扶手",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -2503,7 +2503,7 @@
       "page": 32,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "扶手",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -2545,7 +2545,7 @@
       "page": 33,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "公共厕所、无障碍厕所",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -2559,7 +2559,7 @@
       "page": 35,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "公共厕所、无障碍厕所",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -2573,7 +2573,7 @@
       "page": 36,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "公共厕所、无障碍厕所",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -2587,7 +2587,7 @@
       "page": 38,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "公共浴室",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -2601,7 +2601,7 @@
       "page": 38,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "公共浴室",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -2629,7 +2629,7 @@
       "page": 39,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍客房",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -2643,7 +2643,7 @@
       "page": 39,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍客房",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -2657,7 +2657,7 @@
       "page": 40,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍客房",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -2671,7 +2671,7 @@
       "page": 40,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍客房",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -2727,7 +2727,7 @@
       "page": 41,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍住房及宿舍",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -2755,7 +2755,7 @@
       "page": 42,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "轮椅席位",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -2769,7 +2769,7 @@
       "page": 43,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "轮椅席位",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -2783,7 +2783,7 @@
       "page": 43,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "轮椅席位",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -2797,7 +2797,7 @@
       "page": 43,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "轮椅席位",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -2811,7 +2811,7 @@
       "page": 43,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "轮椅席位",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -2853,7 +2853,7 @@
       "page": 44,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍机动车停车位",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -2867,7 +2867,7 @@
       "page": 44,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍机动车停车位",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -2881,7 +2881,7 @@
       "page": 44,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍机动车停车位",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -2895,7 +2895,7 @@
       "page": 45,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍机动车停车位",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -2937,7 +2937,7 @@
       "page": 45,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "低位服务设施",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -2951,7 +2951,7 @@
       "page": 45,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "低位服务设施",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -2965,7 +2965,7 @@
       "page": 46,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍标识系统、信息无障碍",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -2979,7 +2979,7 @@
       "page": 47,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍标识系统、信息无障碍",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -2993,7 +2993,7 @@
       "page": 47,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍标识系统、信息无障碍",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -3007,7 +3007,7 @@
       "page": 49,
       "chapterTitle": "城市道路",
       "sectionTitle": "实施范围",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -3021,7 +3021,7 @@
       "page": 50,
       "chapterTitle": "城市道路",
       "sectionTitle": "实施范围",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -3049,7 +3049,7 @@
       "page": 50,
       "chapterTitle": "城市道路",
       "sectionTitle": "人行道",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -3063,7 +3063,7 @@
       "page": 51,
       "chapterTitle": "城市道路",
       "sectionTitle": "人行道",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -3077,7 +3077,7 @@
       "page": 52,
       "chapterTitle": "城市道路",
       "sectionTitle": "人行道",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -3091,7 +3091,7 @@
       "page": 52,
       "chapterTitle": "城市道路",
       "sectionTitle": "人行道",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -3105,7 +3105,7 @@
       "page": 53,
       "chapterTitle": "城市道路",
       "sectionTitle": "人行横道",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -3119,7 +3119,7 @@
       "page": 54,
       "chapterTitle": "城市道路",
       "sectionTitle": "人行天桥及地道",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -3133,7 +3133,7 @@
       "page": 54,
       "chapterTitle": "城市道路",
       "sectionTitle": "人行天桥及地道",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -3147,7 +3147,7 @@
       "page": 56,
       "chapterTitle": "城市道路",
       "sectionTitle": "人行天桥及地道",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -3189,7 +3189,7 @@
       "page": 57,
       "chapterTitle": "城市道路",
       "sectionTitle": "公交车站",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -3203,7 +3203,7 @@
       "page": 57,
       "chapterTitle": "城市道路",
       "sectionTitle": "公交车站",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -3217,7 +3217,7 @@
       "page": 58,
       "chapterTitle": "城市道路",
       "sectionTitle": "无障碍标识系统",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -3231,7 +3231,7 @@
       "page": 58,
       "chapterTitle": "城市道路",
       "sectionTitle": "无障碍标识系统",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -3245,7 +3245,7 @@
       "page": 58,
       "chapterTitle": "城市道路",
       "sectionTitle": "无障碍标识系统",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -3259,7 +3259,7 @@
       "page": 59,
       "chapterTitle": "城市广场",
       "sectionTitle": "实施范围",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -3273,7 +3273,7 @@
       "page": 60,
       "chapterTitle": "城市广场",
       "sectionTitle": "实施部位和设计要求",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -3287,7 +3287,7 @@
       "page": 60,
       "chapterTitle": "城市广场",
       "sectionTitle": "实施部位和设计要求",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -3301,7 +3301,7 @@
       "page": 60,
       "chapterTitle": "城市广场",
       "sectionTitle": "实施部位和设计要求",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -3329,7 +3329,7 @@
       "page": 61,
       "chapterTitle": "城市广场",
       "sectionTitle": "实施部位和设计要求",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -3343,7 +3343,7 @@
       "page": 61,
       "chapterTitle": "城市广场",
       "sectionTitle": "实施部位和设计要求",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -3357,7 +3357,7 @@
       "page": 61,
       "chapterTitle": "城市广场",
       "sectionTitle": "实施部位和设计要求",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -3371,7 +3371,7 @@
       "page": 61,
       "chapterTitle": "城市绿地",
       "sectionTitle": "实施范围",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -3385,7 +3385,7 @@
       "page": 62,
       "chapterTitle": "城市绿地",
       "sectionTitle": "公园绿地",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -3399,7 +3399,7 @@
       "page": 63,
       "chapterTitle": "城市绿地",
       "sectionTitle": "公园绿地",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -3413,7 +3413,7 @@
       "page": 63,
       "chapterTitle": "城市绿地",
       "sectionTitle": "公园绿地",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -3441,7 +3441,7 @@
       "page": 67,
       "chapterTitle": "城市绿地",
       "sectionTitle": "公园绿地",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -3455,7 +3455,7 @@
       "page": 67,
       "chapterTitle": "城市绿地",
       "sectionTitle": "公园绿地",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -3497,7 +3497,7 @@
       "page": 72,
       "chapterTitle": "城市绿地",
       "sectionTitle": "附属绿地",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -3511,7 +3511,7 @@
       "page": 72,
       "chapterTitle": "城市绿地",
       "sectionTitle": "附属绿地",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -3525,7 +3525,7 @@
       "page": 72,
       "chapterTitle": "城市绿地",
       "sectionTitle": "其他绿地",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -3539,7 +3539,7 @@
       "page": 72,
       "chapterTitle": "城市绿地",
       "sectionTitle": "其他绿地",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -3553,7 +3553,7 @@
       "page": 72,
       "chapterTitle": "居住区、居住建筑",
       "sectionTitle": "道路",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -3567,7 +3567,7 @@
       "page": 72,
       "chapterTitle": "居住区、居住建筑",
       "sectionTitle": "道路",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -3581,7 +3581,7 @@
       "page": 73,
       "chapterTitle": "居住区、居住建筑",
       "sectionTitle": "居住绿地",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -3595,7 +3595,7 @@
       "page": 74,
       "chapterTitle": "居住区、居住建筑",
       "sectionTitle": "居住绿地",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -3609,7 +3609,7 @@
       "page": 75,
       "chapterTitle": "居住区、居住建筑",
       "sectionTitle": "居住绿地",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -3623,7 +3623,7 @@
       "page": 76,
       "chapterTitle": "居住区、居住建筑",
       "sectionTitle": "居住绿地",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -3651,7 +3651,7 @@
       "page": 77,
       "chapterTitle": "居住区、居住建筑",
       "sectionTitle": "配套公共设施",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -3665,7 +3665,7 @@
       "page": 77,
       "chapterTitle": "居住区、居住建筑",
       "sectionTitle": "配套公共设施",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -3679,7 +3679,7 @@
       "page": 78,
       "chapterTitle": "居住区、居住建筑",
       "sectionTitle": "居住建筑",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -3693,7 +3693,7 @@
       "page": 78,
       "chapterTitle": "居住区、居住建筑",
       "sectionTitle": "居住建筑",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -3707,7 +3707,7 @@
       "page": 79,
       "chapterTitle": "居住区、居住建筑",
       "sectionTitle": "居住建筑",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -3735,7 +3735,7 @@
       "page": 80,
       "chapterTitle": "居住区、居住建筑",
       "sectionTitle": "居住建筑",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -3763,7 +3763,7 @@
       "page": 81,
       "chapterTitle": "公共建筑",
       "sectionTitle": "一般规定",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -3777,7 +3777,7 @@
       "page": 81,
       "chapterTitle": "公共建筑",
       "sectionTitle": "一般规定",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -3847,7 +3847,7 @@
       "page": 82,
       "chapterTitle": "公共建筑",
       "sectionTitle": "一般规定",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -3889,7 +3889,7 @@
       "page": 84,
       "chapterTitle": "公共建筑",
       "sectionTitle": "办公、科研、司法建筑",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -3903,7 +3903,7 @@
       "page": 85,
       "chapterTitle": "公共建筑",
       "sectionTitle": "教育建筑",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -3917,7 +3917,7 @@
       "page": 85,
       "chapterTitle": "公共建筑",
       "sectionTitle": "教育建筑",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -3931,7 +3931,7 @@
       "page": 85,
       "chapterTitle": "公共建筑",
       "sectionTitle": "教育建筑",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/gb50763-2012.pdf"
     },
     {
@@ -3942,10 +3942,10 @@
       "standardType": "地方标准",
       "clauseNumber": "1.0.1",
       "text": "本条规定了制定本标准的目的。无障碍设计应满足全体社会成员使用，体现全龄全民友好，消除",
-      "page": 58,
+      "page": 7,
       "chapterTitle": "总则",
       "sectionTitle": "",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -3956,7 +3956,7 @@
       "standardType": "地方标准",
       "clauseNumber": "1.0.2",
       "text": "本条规定了本标准适用的范围。",
-      "page": 58,
+      "page": 7,
       "chapterTitle": "总则",
       "sectionTitle": "",
       "isMandatory": false,
@@ -3973,7 +3973,7 @@
       "page": 7,
       "chapterTitle": "总则",
       "sectionTitle": "",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -4614,10 +4614,10 @@
       "standardType": "地方标准",
       "clauseNumber": "3.0.1",
       "text": "深圳市无障碍设计应满足深圳市城市规划及深圳市无障碍专项规划要求，并体现深圳市特色。",
-      "page": 59,
+      "page": 12,
       "chapterTitle": "基本规定",
       "sectionTitle": "",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -4628,7 +4628,7 @@
       "standardType": "地方标准",
       "clauseNumber": "3.0.2",
       "text": "根据《深圳市无障碍环境建设条例》第十四条规定：“新建、改建扩建的建设项目应当按照国家",
-      "page": 59,
+      "page": 12,
       "chapterTitle": "基本规定",
       "sectionTitle": "",
       "isMandatory": false,
@@ -4642,10 +4642,10 @@
       "standardType": "地方标准",
       "clauseNumber": "3.0.3",
       "text": "根据《深圳市无障碍环境建设条例》第十四条规定：“新建、改建扩建的建设项目应，……与建",
-      "page": 59,
+      "page": 12,
       "chapterTitle": "基本规定",
       "sectionTitle": "",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -4659,7 +4659,7 @@
       "page": 12,
       "chapterTitle": "基本规定",
       "sectionTitle": "",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -4673,7 +4673,7 @@
       "page": 12,
       "chapterTitle": "基本规定",
       "sectionTitle": "",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -4687,7 +4687,7 @@
       "page": 12,
       "chapterTitle": "基本规定",
       "sectionTitle": "",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -4712,7 +4712,7 @@
       "standardType": "地方标准",
       "clauseNumber": "4.1.1",
       "text": "通行路线中，行进规律发生变化处易发生危险，宜采用无障碍设计，保障通行便利。本节按照通",
-      "page": 60,
+      "page": 13,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍通行设施",
       "isMandatory": false,
@@ -4726,7 +4726,7 @@
       "standardType": "地方标准",
       "clauseNumber": "4.1.10",
       "text": "本条规定了盲道的设计要求。",
-      "page": 64,
+      "page": 14,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍通行设施",
       "isMandatory": false,
@@ -4740,7 +4740,7 @@
       "standardType": "地方标准",
       "clauseNumber": "4.1.11",
       "text": "本条规定了行进盲道的设计要求。",
-      "page": 65,
+      "page": 14,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍通行设施",
       "isMandatory": false,
@@ -4754,7 +4754,7 @@
       "standardType": "地方标准",
       "clauseNumber": "4.1.12",
       "text": "本条规定了行进盲道的设计要求。",
-      "page": 65,
+      "page": 14,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍通行设施",
       "isMandatory": false,
@@ -4768,7 +4768,7 @@
       "standardType": "地方标准",
       "clauseNumber": "4.1.13",
       "text": "本条规定了无障碍通道的宽度要求。",
-      "page": 65,
+      "page": 15,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍通行设施",
       "isMandatory": false,
@@ -4782,7 +4782,7 @@
       "standardType": "地方标准",
       "clauseNumber": "4.1.14",
       "text": "本条规定了无障碍通道的设计要求。",
-      "page": 65,
+      "page": 15,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍通行设施",
       "isMandatory": false,
@@ -4796,10 +4796,10 @@
       "standardType": "地方标准",
       "clauseNumber": "4.1.15",
       "text": "轮椅坡道形式的设计应根据周边情况综合考虑（如图4.1.15-1、图4.1.15-2、图4.1.15-3），",
-      "page": 66,
+      "page": 15,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍通行设施",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -4810,7 +4810,7 @@
       "standardType": "地方标准",
       "clauseNumber": "4.1.16",
       "text": "本条规定了轮椅坡道的坡度、最大提升高度和水平长度的要求。",
-      "page": 67,
+      "page": 15,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍通行设施",
       "isMandatory": false,
@@ -4824,7 +4824,7 @@
       "standardType": "地方标准",
       "clauseNumber": "4.1.17",
       "text": "本条规定了轮椅坡道的设计要求。",
-      "page": 67,
+      "page": 16,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍通行设施",
       "isMandatory": false,
@@ -4838,7 +4838,7 @@
       "standardType": "地方标准",
       "clauseNumber": "4.1.18",
       "text": "本条规定了无障碍出入口的基本配置。",
-      "page": 67,
+      "page": 16,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍通行设施",
       "isMandatory": false,
@@ -4852,7 +4852,7 @@
       "standardType": "地方标准",
       "clauseNumber": "4.1.19",
       "text": "本条规定了无障碍出入口的设计要求。",
-      "page": 68,
+      "page": 16,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍通行设施",
       "isMandatory": false,
@@ -4866,10 +4866,10 @@
       "standardType": "地方标准",
       "clauseNumber": "4.1.2",
       "text": "为保障无障碍通行，建设工程内外应提供连贯路线。在我国现行标准中没有明确此要求，本条根",
-      "page": 60,
+      "page": 13,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍通行设施",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -4880,7 +4880,7 @@
       "standardType": "地方标准",
       "clauseNumber": "4.1.20",
       "text": "本条规定了满足无障碍要求门的设计要求。",
-      "page": 68,
+      "page": 15,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍通行设施",
       "isMandatory": false,
@@ -4894,7 +4894,7 @@
       "standardType": "地方标准",
       "clauseNumber": "4.1.21",
       "text": "本条规定了满足无障碍要求的手动门的设计要求。",
-      "page": 68,
+      "page": 17,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍通行设施",
       "isMandatory": false,
@@ -4908,7 +4908,7 @@
       "standardType": "地方标准",
       "clauseNumber": "4.1.22",
       "text": "本条规定了满足无障碍要求的自动门的设计要求。满足无障碍要求的自动门要考虑其安全性、通",
-      "page": 69,
+      "page": 17,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍通行设施",
       "isMandatory": false,
@@ -4922,7 +4922,7 @@
       "standardType": "地方标准",
       "clauseNumber": "4.1.23",
       "text": "本条规定了全玻璃门的设计要求。",
-      "page": 69,
+      "page": 17,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍通行设施",
       "isMandatory": false,
@@ -4936,7 +4936,7 @@
       "standardType": "地方标准",
       "clauseNumber": "4.1.24",
       "text": "本条规定了无障碍电梯候梯厅的设计要求（如图4.1.28-1～图4.1.28-2）。",
-      "page": 69,
+      "page": 17,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍通行设施",
       "isMandatory": false,
@@ -4950,7 +4950,7 @@
       "standardType": "地方标准",
       "clauseNumber": "4.1.25",
       "text": "本条规定了无障碍电梯轿厢的设计要求 (如图4.1.25-1～图4.1.25-2)。",
-      "page": 69,
+      "page": 18,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍通行设施",
       "isMandatory": false,
@@ -4964,7 +4964,7 @@
       "standardType": "地方标准",
       "clauseNumber": "4.1.26",
       "text": "升降平台存在操作复杂、运行缓慢的缺点，一般情况下不作为首选的无障碍设施。特定条件限制",
-      "page": 70,
+      "page": 18,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍通行设施",
       "isMandatory": false,
@@ -4978,7 +4978,7 @@
       "standardType": "地方标准",
       "clauseNumber": "4.1.27",
       "text": "本条规定了升降平台的设计要求。",
-      "page": 70,
+      "page": 18,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍通行设施",
       "isMandatory": false,
@@ -4992,7 +4992,7 @@
       "standardType": "地方标准",
       "clauseNumber": "4.1.28",
       "text": "本条规定了无障碍楼梯的设计要求（如图4.1.28）。",
-      "page": 70,
+      "page": 18,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍通行设施",
       "isMandatory": false,
@@ -5009,7 +5009,7 @@
       "page": 19,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍通行设施",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -5020,7 +5020,7 @@
       "standardType": "地方标准",
       "clauseNumber": "4.1.3",
       "text": "固定在无障碍通道、轮椅坡道、无障碍楼梯的墙或柱面上的物体包括标牌、电话、灭火器等可能",
-      "page": 60,
+      "page": 13,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍通行设施",
       "isMandatory": false,
@@ -5037,7 +5037,7 @@
       "page": 19,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍通行设施",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -5051,7 +5051,7 @@
       "page": 19,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍通行设施",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -5062,7 +5062,7 @@
       "standardType": "地方标准",
       "clauseNumber": "4.1.32",
       "text": "本条规定了扶手的设计要求。",
-      "page": 72,
+      "page": 19,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍通行设施",
       "isMandatory": false,
@@ -5076,7 +5076,7 @@
       "standardType": "地方标准",
       "clauseNumber": "4.1.33",
       "text": "本条规定了扶手的安装要求。",
-      "page": 72,
+      "page": 19,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍通行设施",
       "isMandatory": false,
@@ -5090,10 +5090,10 @@
       "standardType": "地方标准",
       "clauseNumber": "4.1.4",
       "text": "《无障碍设计规范》GB50763-2012第6.2.4条第5款“在地形险要的地段应设置安全防护设施和",
-      "page": 60,
+      "page": 13,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍通行设施",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -5104,7 +5104,7 @@
       "standardType": "地方标准",
       "clauseNumber": "4.1.5",
       "text": "本条规定了无障碍机动车停车位的设计要求。",
-      "page": 60,
+      "page": 13,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍通行设施",
       "isMandatory": false,
@@ -5118,7 +5118,7 @@
       "standardType": "地方标准",
       "clauseNumber": "4.1.6",
       "text": "在机场、客运站、通关口岸、轮渡码头、医院等客流集中及无障碍需求比较集中的场所的上/落",
-      "page": 61,
+      "page": 13,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍通行设施",
       "isMandatory": false,
@@ -5132,7 +5132,7 @@
       "standardType": "地方标准",
       "clauseNumber": "4.1.7",
       "text": "本条规定了缘石坡道的设计要求。",
-      "page": 61,
+      "page": 13,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍通行设施",
       "isMandatory": false,
@@ -5146,10 +5146,10 @@
       "standardType": "地方标准",
       "clauseNumber": "4.1.8",
       "text": "本条规定了缘石坡道的坡度要求。缘石坡道的坡度应避免设置过陡造成使用时的安全隐患。《无",
-      "page": 62,
+      "page": 14,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍通行设施",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -5160,7 +5160,7 @@
       "standardType": "地方标准",
       "clauseNumber": "4.1.9",
       "text": "本条规定了缘石坡道的宽度要求。全宽式单面坡缘石坡道（如图4.1.9-1），三面坡缘石坡道（如",
-      "page": 62,
+      "page": 14,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍通行设施",
       "isMandatory": false,
@@ -5188,7 +5188,7 @@
       "standardType": "地方标准",
       "clauseNumber": "4.2.10",
       "text": "本条规定了无障碍洗手/面盆的设计要求。",
-      "page": 74,
+      "page": 20,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍服务设施",
       "isMandatory": false,
@@ -5202,7 +5202,7 @@
       "standardType": "地方标准",
       "clauseNumber": "4.2.11",
       "text": "在我国现行无障碍标准《无障碍设计规范》GB 50763-2012中没有供儿童使用的服务设施相关要",
-      "page": 74,
+      "page": 14,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍服务设施",
       "isMandatory": false,
@@ -5216,10 +5216,10 @@
       "standardType": "地方标准",
       "clauseNumber": "4.2.12",
       "text": "无障碍淋浴间应符合下列规定：",
-      "page": 21,
+      "page": 15,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍服务设施",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -5233,7 +5233,7 @@
       "page": 21,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍服务设施",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -5247,7 +5247,7 @@
       "page": 21,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍服务设施",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -5261,7 +5261,7 @@
       "page": 21,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍服务设施",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -5275,7 +5275,7 @@
       "page": 21,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍服务设施",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -5289,7 +5289,7 @@
       "page": 21,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍服务设施",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -5303,7 +5303,7 @@
       "page": 22,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍服务设施",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -5317,7 +5317,7 @@
       "page": 22,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍服务设施",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -5328,10 +5328,10 @@
       "standardType": "地方标准",
       "clauseNumber": "4.2.2",
       "text": "通向无障碍设施的通道应能满足各类群体的通行需求。",
-      "page": 72,
+      "page": 20,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍服务设施",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -5345,7 +5345,7 @@
       "page": 22,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍服务设施",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -5359,7 +5359,7 @@
       "page": 22,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍服务设施",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -5373,7 +5373,7 @@
       "page": 22,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍服务设施",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -5387,7 +5387,7 @@
       "page": 22,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍服务设施",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -5401,7 +5401,7 @@
       "page": 22,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍服务设施",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -5415,7 +5415,7 @@
       "page": 23,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍服务设施",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -5443,7 +5443,7 @@
       "page": 23,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍服务设施",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -5457,7 +5457,7 @@
       "page": 23,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍服务设施",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -5471,7 +5471,7 @@
       "page": 23,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍服务设施",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -5482,7 +5482,7 @@
       "standardType": "地方标准",
       "clauseNumber": "4.2.3",
       "text": "本条要求的直径不小于1.50m的轮椅回转空间可以各种形式满足，不但包括适合轮椅回转的平面",
-      "page": 72,
+      "page": 20,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍服务设施",
       "isMandatory": false,
@@ -5499,7 +5499,7 @@
       "page": 23,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍服务设施",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -5513,7 +5513,7 @@
       "page": 23,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍服务设施",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -5527,7 +5527,7 @@
       "page": 23,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍服务设施",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -5541,7 +5541,7 @@
       "page": 24,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍服务设施",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -5555,7 +5555,7 @@
       "page": 24,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍服务设施",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -5569,7 +5569,7 @@
       "page": 24,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍服务设施",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -5583,7 +5583,7 @@
       "page": 24,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍服务设施",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -5597,7 +5597,7 @@
       "page": 24,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍服务设施",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -5611,7 +5611,7 @@
       "page": 24,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍服务设施",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -5625,7 +5625,7 @@
       "page": 25,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍服务设施",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -5636,7 +5636,7 @@
       "standardType": "地方标准",
       "clauseNumber": "4.2.4",
       "text": "使用者跌倒时有可能阻碍门向内打开从而影响救援，故本条规定紧急情况下施救人员可在无障碍",
-      "page": 72,
+      "page": 20,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍服务设施",
       "isMandatory": false,
@@ -5653,7 +5653,7 @@
       "page": 25,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍服务设施",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -5667,7 +5667,7 @@
       "page": 25,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍服务设施",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -5681,7 +5681,7 @@
       "page": 25,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍服务设施",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -5709,7 +5709,7 @@
       "page": 25,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍服务设施",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -5723,7 +5723,7 @@
       "page": 25,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍服务设施",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -5737,7 +5737,7 @@
       "page": 25,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍服务设施",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -5751,7 +5751,7 @@
       "page": 25,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍服务设施",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -5762,7 +5762,7 @@
       "standardType": "地方标准",
       "clauseNumber": "4.2.5",
       "text": "无障碍服务设施内部设置救助呼叫装置，目的是保证使用者能够在紧急状况下最快速地向设施服",
-      "page": 72,
+      "page": 20,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍服务设施",
       "isMandatory": false,
@@ -5776,7 +5776,7 @@
       "standardType": "地方标准",
       "clauseNumber": "4.2.6",
       "text": "无障碍卫生间、第三卫生间、公共卫生间、无障碍淋浴间、无障碍盆浴间、无障碍客房及无障碍",
-      "page": 72,
+      "page": 20,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍服务设施",
       "isMandatory": false,
@@ -5790,7 +5790,7 @@
       "standardType": "地方标准",
       "clauseNumber": "4.2.7",
       "text": "本条规定了具有内部空间的无障碍服务设施内安装的安全抓杆、多功能台、固定座位、低位挂衣",
-      "page": 72,
+      "page": 20,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍服务设施",
       "isMandatory": false,
@@ -5804,7 +5804,7 @@
       "standardType": "地方标准",
       "clauseNumber": "4.2.8",
       "text": "本条规定了无障碍坐便器的设计要求（如图4.2.8-1、图4.2.8-2）。",
-      "page": 73,
+      "page": 20,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍服务设施",
       "isMandatory": false,
@@ -5818,7 +5818,7 @@
       "standardType": "地方标准",
       "clauseNumber": "4.2.9",
       "text": "低位小便器方便乘轮椅者、身材矮小者等人群的使用，尤其落地式小便池为包括身材矮小者在内",
-      "page": 73,
+      "page": 20,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍服务设施",
       "isMandatory": false,
@@ -5863,7 +5863,7 @@
       "page": 27,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍信息设施",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -5877,7 +5877,7 @@
       "page": 27,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍信息设施",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -5891,7 +5891,7 @@
       "page": 26,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍信息设施",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -5905,7 +5905,7 @@
       "page": 26,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍信息设施",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -5919,7 +5919,7 @@
       "page": 26,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍信息设施",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -5933,7 +5933,7 @@
       "page": 26,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍信息设施",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -5961,7 +5961,7 @@
       "page": 26,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍信息设施",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -5989,7 +5989,7 @@
       "page": 26,
       "chapterTitle": "无障碍设施的设计要求",
       "sectionTitle": "无障碍信息设施",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6003,7 +6003,7 @@
       "page": 28,
       "chapterTitle": "城市道路",
       "sectionTitle": "一般规定",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6017,7 +6017,7 @@
       "page": 28,
       "chapterTitle": "城市道路",
       "sectionTitle": "一般规定",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6059,7 +6059,7 @@
       "page": 28,
       "chapterTitle": "城市道路",
       "sectionTitle": "一般规定",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6073,7 +6073,7 @@
       "page": 28,
       "chapterTitle": "城市道路",
       "sectionTitle": "一般规定",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6087,7 +6087,7 @@
       "page": 28,
       "chapterTitle": "城市道路",
       "sectionTitle": "一般规定",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6101,7 +6101,7 @@
       "page": 28,
       "chapterTitle": "城市道路",
       "sectionTitle": "人行道",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6115,7 +6115,7 @@
       "page": 28,
       "chapterTitle": "城市道路",
       "sectionTitle": "人行道",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6129,7 +6129,7 @@
       "page": 28,
       "chapterTitle": "城市道路",
       "sectionTitle": "人行道",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6143,7 +6143,7 @@
       "page": 29,
       "chapterTitle": "城市道路",
       "sectionTitle": "人行道",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6157,7 +6157,7 @@
       "page": 29,
       "chapterTitle": "城市道路",
       "sectionTitle": "人行横道",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6171,7 +6171,7 @@
       "page": 29,
       "chapterTitle": "城市道路",
       "sectionTitle": "人行天桥及地道",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6185,7 +6185,7 @@
       "page": 29,
       "chapterTitle": "城市道路",
       "sectionTitle": "人行天桥及地道",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6199,7 +6199,7 @@
       "page": 29,
       "chapterTitle": "城市道路",
       "sectionTitle": "人行天桥及地道",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6213,7 +6213,7 @@
       "page": 29,
       "chapterTitle": "城市道路",
       "sectionTitle": "人行天桥及地道",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6241,7 +6241,7 @@
       "page": 30,
       "chapterTitle": "城市道路",
       "sectionTitle": "人行天桥及地道",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6255,7 +6255,7 @@
       "page": 30,
       "chapterTitle": "城市道路",
       "sectionTitle": "公交车站",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6269,7 +6269,7 @@
       "page": 30,
       "chapterTitle": "城市道路",
       "sectionTitle": "公交车站",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6287,6 +6287,20 @@
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
+      "id": "sjg103-5.6.1",
+      "standardId": "sjg103",
+      "standardName": "SJG 103-2021",
+      "standardFullName": "无障碍设计标准（深圳）",
+      "standardType": "地方标准",
+      "clauseNumber": "5.6.1",
+      "text": "自行车停放区的无障碍设计应符合下列规定：",
+      "page": 30,
+      "chapterTitle": "城市道路",
+      "sectionTitle": "自行车停放区",
+      "isMandatory": true,
+      "pdfFile": "pdf/sjg103-2021.pdf"
+    },
+    {
       "id": "sjg103-6.1.1",
       "standardId": "sjg103",
       "standardName": "SJG 103-2021",
@@ -6297,7 +6311,7 @@
       "page": 31,
       "chapterTitle": "城市广场",
       "sectionTitle": "一般规定",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6311,7 +6325,7 @@
       "page": 31,
       "chapterTitle": "城市广场",
       "sectionTitle": "一般规定",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6339,7 +6353,7 @@
       "page": 31,
       "chapterTitle": "城市广场",
       "sectionTitle": "一般规定",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6353,7 +6367,7 @@
       "page": 31,
       "chapterTitle": "城市广场",
       "sectionTitle": "一般规定",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6367,7 +6381,7 @@
       "page": 31,
       "chapterTitle": "城市广场",
       "sectionTitle": "一般规定",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6381,7 +6395,7 @@
       "page": 31,
       "chapterTitle": "城市广场",
       "sectionTitle": "实施部位和设计要求",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6395,7 +6409,7 @@
       "page": 31,
       "chapterTitle": "城市广场",
       "sectionTitle": "实施部位和设计要求",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6409,7 +6423,7 @@
       "page": 31,
       "chapterTitle": "城市广场",
       "sectionTitle": "实施部位和设计要求",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6437,7 +6451,7 @@
       "page": 32,
       "chapterTitle": "城市广场",
       "sectionTitle": "实施部位和设计要求",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6451,7 +6465,7 @@
       "page": 32,
       "chapterTitle": "城市广场",
       "sectionTitle": "实施部位和设计要求",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6465,7 +6479,7 @@
       "page": 33,
       "chapterTitle": "城市绿地",
       "sectionTitle": "一般规定",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6479,7 +6493,7 @@
       "page": 33,
       "chapterTitle": "城市绿地",
       "sectionTitle": "一般规定",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6507,7 +6521,7 @@
       "page": 33,
       "chapterTitle": "城市绿地",
       "sectionTitle": "一般规定",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6521,7 +6535,7 @@
       "page": 33,
       "chapterTitle": "城市绿地",
       "sectionTitle": "一般规定",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6535,7 +6549,7 @@
       "page": 33,
       "chapterTitle": "城市绿地",
       "sectionTitle": "一般规定",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6549,7 +6563,7 @@
       "page": 33,
       "chapterTitle": "城市绿地",
       "sectionTitle": "公园绿地",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6563,7 +6577,7 @@
       "page": 35,
       "chapterTitle": "城市绿地",
       "sectionTitle": "公园绿地",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6577,7 +6591,7 @@
       "page": 35,
       "chapterTitle": "城市绿地",
       "sectionTitle": "公园绿地",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6605,7 +6619,7 @@
       "page": 35,
       "chapterTitle": "城市绿地",
       "sectionTitle": "公园绿地",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6619,7 +6633,7 @@
       "page": 35,
       "chapterTitle": "城市绿地",
       "sectionTitle": "公园绿地",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6647,7 +6661,7 @@
       "page": 33,
       "chapterTitle": "城市绿地",
       "sectionTitle": "公园绿地",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6661,7 +6675,7 @@
       "page": 33,
       "chapterTitle": "城市绿地",
       "sectionTitle": "公园绿地",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6675,7 +6689,7 @@
       "page": 33,
       "chapterTitle": "城市绿地",
       "sectionTitle": "公园绿地",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6689,7 +6703,7 @@
       "page": 33,
       "chapterTitle": "城市绿地",
       "sectionTitle": "公园绿地",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6703,7 +6717,7 @@
       "page": 34,
       "chapterTitle": "城市绿地",
       "sectionTitle": "公园绿地",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6717,7 +6731,7 @@
       "page": 34,
       "chapterTitle": "城市绿地",
       "sectionTitle": "公园绿地",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6731,7 +6745,7 @@
       "page": 34,
       "chapterTitle": "城市绿地",
       "sectionTitle": "公园绿地",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6745,7 +6759,7 @@
       "page": 35,
       "chapterTitle": "城市绿地",
       "sectionTitle": "公园绿地",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6759,7 +6773,7 @@
       "page": 35,
       "chapterTitle": "城市绿地",
       "sectionTitle": "附属绿地",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6787,7 +6801,7 @@
       "page": 36,
       "chapterTitle": "城市建筑",
       "sectionTitle": "一般规定",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6801,7 +6815,7 @@
       "page": 36,
       "chapterTitle": "城市建筑",
       "sectionTitle": "一般规定",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6815,7 +6829,7 @@
       "page": 36,
       "chapterTitle": "城市建筑",
       "sectionTitle": "一般规定",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6857,7 +6871,7 @@
       "page": 36,
       "chapterTitle": "城市建筑",
       "sectionTitle": "一般规定",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6885,7 +6899,7 @@
       "page": 36,
       "chapterTitle": "城市建筑",
       "sectionTitle": "一般规定",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6899,7 +6913,7 @@
       "page": 36,
       "chapterTitle": "城市建筑",
       "sectionTitle": "办公、科研、司法建筑",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6927,7 +6941,7 @@
       "page": 36,
       "chapterTitle": "城市建筑",
       "sectionTitle": "办公、科研、司法建筑",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6941,7 +6955,7 @@
       "page": 37,
       "chapterTitle": "城市建筑",
       "sectionTitle": "办公、科研、司法建筑",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6955,7 +6969,7 @@
       "page": 37,
       "chapterTitle": "城市建筑",
       "sectionTitle": "办公、科研、司法建筑",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6983,7 +6997,7 @@
       "page": 39,
       "chapterTitle": "城市建筑",
       "sectionTitle": "教育建筑",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -6997,7 +7011,7 @@
       "page": 39,
       "chapterTitle": "城市建筑",
       "sectionTitle": "教育建筑",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -7011,7 +7025,7 @@
       "page": 40,
       "chapterTitle": "城市建筑",
       "sectionTitle": "教育建筑",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -7025,7 +7039,7 @@
       "page": 40,
       "chapterTitle": "城市建筑",
       "sectionTitle": "教育建筑",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -7039,7 +7053,7 @@
       "page": 40,
       "chapterTitle": "城市建筑",
       "sectionTitle": "教育建筑",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -7053,7 +7067,7 @@
       "page": 40,
       "chapterTitle": "城市建筑",
       "sectionTitle": "教育建筑",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -7067,7 +7081,7 @@
       "page": 41,
       "chapterTitle": "城市建筑",
       "sectionTitle": "教育建筑",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -7081,7 +7095,7 @@
       "page": 41,
       "chapterTitle": "城市建筑",
       "sectionTitle": "教育建筑",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -7095,7 +7109,7 @@
       "page": 41,
       "chapterTitle": "城市建筑",
       "sectionTitle": "教育建筑",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -7109,7 +7123,7 @@
       "page": 41,
       "chapterTitle": "城市建筑",
       "sectionTitle": "教育建筑",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -7123,7 +7137,7 @@
       "page": 38,
       "chapterTitle": "城市建筑",
       "sectionTitle": "教育建筑",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -7151,7 +7165,7 @@
       "page": 41,
       "chapterTitle": "城市建筑",
       "sectionTitle": "教育建筑",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -7165,7 +7179,7 @@
       "page": 42,
       "chapterTitle": "城市建筑",
       "sectionTitle": "教育建筑",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -7179,7 +7193,7 @@
       "page": 42,
       "chapterTitle": "城市建筑",
       "sectionTitle": "教育建筑",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -7193,7 +7207,7 @@
       "page": 42,
       "chapterTitle": "城市建筑",
       "sectionTitle": "教育建筑",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -7221,7 +7235,7 @@
       "page": 43,
       "chapterTitle": "城市建筑",
       "sectionTitle": "教育建筑",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -7249,7 +7263,7 @@
       "page": 43,
       "chapterTitle": "城市建筑",
       "sectionTitle": "教育建筑",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -7277,7 +7291,7 @@
       "page": 38,
       "chapterTitle": "城市建筑",
       "sectionTitle": "教育建筑",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -7291,7 +7305,7 @@
       "page": 44,
       "chapterTitle": "城市建筑",
       "sectionTitle": "教育建筑",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -7305,7 +7319,7 @@
       "page": 44,
       "chapterTitle": "城市建筑",
       "sectionTitle": "教育建筑",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -7333,7 +7347,7 @@
       "page": 44,
       "chapterTitle": "城市建筑",
       "sectionTitle": "教育建筑",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -7347,7 +7361,7 @@
       "page": 44,
       "chapterTitle": "城市建筑",
       "sectionTitle": "教育建筑",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -7361,7 +7375,7 @@
       "page": 45,
       "chapterTitle": "城市建筑",
       "sectionTitle": "教育建筑",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -7375,7 +7389,7 @@
       "page": 45,
       "chapterTitle": "城市建筑",
       "sectionTitle": "教育建筑",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -7389,7 +7403,7 @@
       "page": 45,
       "chapterTitle": "城市建筑",
       "sectionTitle": "教育建筑",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -7403,7 +7417,7 @@
       "page": 45,
       "chapterTitle": "城市建筑",
       "sectionTitle": "教育建筑",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -7417,7 +7431,7 @@
       "page": 38,
       "chapterTitle": "城市建筑",
       "sectionTitle": "教育建筑",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -7445,7 +7459,7 @@
       "page": 38,
       "chapterTitle": "城市建筑",
       "sectionTitle": "教育建筑",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -7459,7 +7473,7 @@
       "page": 39,
       "chapterTitle": "城市建筑",
       "sectionTitle": "教育建筑",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -7473,7 +7487,7 @@
       "page": 39,
       "chapterTitle": "城市建筑",
       "sectionTitle": "教育建筑",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -7501,7 +7515,7 @@
       "page": 46,
       "chapterTitle": "城市建筑",
       "sectionTitle": "体育建筑",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -7515,7 +7529,7 @@
       "page": 46,
       "chapterTitle": "城市建筑",
       "sectionTitle": "体育建筑",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -7529,7 +7543,7 @@
       "page": 46,
       "chapterTitle": "城市建筑",
       "sectionTitle": "体育建筑",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -7557,7 +7571,7 @@
       "page": 46,
       "chapterTitle": "城市建筑",
       "sectionTitle": "文化建筑",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -7571,7 +7585,7 @@
       "page": 47,
       "chapterTitle": "城市建筑",
       "sectionTitle": "文化建筑",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -7599,7 +7613,7 @@
       "page": 47,
       "chapterTitle": "城市建筑",
       "sectionTitle": "文化建筑",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -7613,7 +7627,7 @@
       "page": 47,
       "chapterTitle": "城市建筑",
       "sectionTitle": "文化建筑",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -7627,7 +7641,7 @@
       "page": 48,
       "chapterTitle": "城市建筑",
       "sectionTitle": "文化建筑",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     },
     {
@@ -7638,10 +7652,10 @@
       "standardType": "地方标准",
       "clauseNumber": "8.5.8",
       "text": "城市公共卫生间的无障碍设计应符合下列规定：",
-      "page": 48,
+      "page": 37,
       "chapterTitle": "城市建筑",
       "sectionTitle": "文化建筑",
-      "isMandatory": false,
+      "isMandatory": true,
       "pdfFile": "pdf/sjg103-2021.pdf"
     }
   ]

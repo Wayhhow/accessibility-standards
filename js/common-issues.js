@@ -15,7 +15,7 @@ const commonIssues = [
     id: "blind-road-broken",
     category: "盲道",
     title: "盲道中断/断头",
-    description: "盲道在人行道口、交叉口或公共建筑入口处突然中断，未与提示盲道或目的地连接",
+    description: "盲道在人行道口、交叉口或建筑入口处突然中断，未与提示盲道或目的地衔接",
     checkPoints: [
       "检查盲道是否从起点到终点连续铺设",
       "检查盲道在路口是否与提示盲道衔接",
@@ -31,7 +31,7 @@ const commonIssues = [
     id: "blind-road-occupied",
     category: "盲道",
     title: "盲道被占用",
-    description: "盲道被共享单车、摊贩、机动车、垃圾桶等占用，导致视觉障碍者无法通行",
+    description: "盲道被共享单车、机动车、摊贩、垃圾桶等占用，导致视觉障碍者无法安全通行",
     checkPoints: [
       "检查盲道上是否有停放车辆",
       "检查盲道上是否有摊贩经营",
@@ -45,7 +45,7 @@ const commonIssues = [
     id: "blind-road-irregular",
     category: "盲道",
     title: "盲道铺设不规范",
-    description: "行进盲道和提示盲道混用、方向错误、颜色与路面无差异",
+    description: "行进盲道与提示盲道混用、铺设方向错误、颜色与路面无明显差异",
     checkPoints: [
       "检查行进盲道是否为条状形",
       "检查提示盲道是否为圆点形",
@@ -60,24 +60,26 @@ const commonIssues = [
     id: "blind-road-obstacle-distance",
     category: "盲道",
     title: "盲道与障碍物距离不足",
-    description: "盲道距围墙、绿化带、树池、路缘石、电线杆等障碍物距离不符合标准",
+    description: "盲道距围墙、绿化带、树池、路缘石等固定障碍物距离不符合标准要求",
     checkPoints: [
       "检查盲道距围墙、花台、绿化带是否为250mm-500mm",
       "检查盲道距树池边缘是否为250mm-500mm",
       "检查盲道与路缘石距离：同一水平面时不小于500mm，低于路缘石时不小于250mm",
       "检查盲道是否避开了电线杆、路灯杆、拉线等障碍物",
-      "检查盲道是否避开了非机动车停放位置"
+      "检查盲道是否避开了非机动车停放位置",
+      "【深圳】检查盲道距离绿化带不应小于250mm",
+      "【深圳】检查盲道与非机动车道边界距离不应小于500mm"
     ],
     relatedClauses: [
       { standardId: "gb50763", standardName: "GB 50763-2012", clauseNumber: "3.2.2", text: "行进盲道宜在距围墙、花台、绿化带250mm-500mm处设置；行进盲道宜在距树池边缘250mm-500mm处设置；盲道应避开树木(穴)、电线杆、拉线等障碍物。", page: 18 },
-      { standardId: "gb55019", standardName: "GB 55019-2021", clauseNumber: "2.11.2", text: "盲道铺设应避开障碍物，任何设施不得占用盲道。", page: 6 }
+      { standardId: "sjg103", standardName: "SJG 103-2021", clauseNumber: "5.2.2", text: "人行道与非机动车道同标高设置时，盲道与非机动车道边界之间宜设置绿化分隔带，盲道距离绿化带不应小于250mm；当无法设置绿化分隔带时，盲道与非机动车道边界距离不应小于500mm。", page: 17 }
     ]
   },
   {
     id: "curb-ramp-missing",
     category: "缘石坡道",
     title: "缘石坡道缺失",
-    description: "人行道口未设置缘石坡道，轮椅和推车无法通行",
+    description: "人行道口存在高差但未设置缘石坡道，轮椅和推车无法通行",
     checkPoints: [
       "检查所有人行道口是否设有缘石坡道",
       "检查缘石坡道是否覆盖整个人行道宽度"
@@ -91,7 +93,7 @@ const commonIssues = [
     id: "ramp-too-steep",
     category: "坡道",
     title: "坡道过陡",
-    description: "轮椅坡道纵向坡度超过1:12，或缘石坡道坡度不符合要求",
+    description: "轮椅坡道纵向坡度大于1:12，或缘石坡道坡度不符合标准要求",
     checkPoints: [
       "测量坡道纵向坡度是否超过1:12",
       "测量坡道横向坡度是否超过1:50"
@@ -104,7 +106,7 @@ const commonIssues = [
     id: "ramp-too-narrow",
     category: "坡道",
     title: "坡道/通道过窄",
-    description: "无障碍通道或轮椅坡道宽度不足1.20m",
+    description: "无障碍通道或轮椅坡道净宽不足1.20m，人员密集场所不足1.80m",
     checkPoints: [
       "测量通道净宽是否不小于1.20m",
       "测量人员密集场所通道净宽是否不小于1.80m"
@@ -116,8 +118,8 @@ const commonIssues = [
   {
     id: "entrance-steps-only",
     category: "出入口",
-    title: "台阶替代坡道",
-    description: "应设无障碍出入口处只有台阶，未设置轮椅坡道或升降平台",
+    title: "出入口仅有台阶",
+    description: "应设无障碍出入口的位置仅设置了台阶，未配套轮椅坡道或升降平台",
     checkPoints: [
       "检查公共建筑出入口是否设有平坡出入口或轮椅坡道",
       "检查既有建筑改造是否增设了无障碍设施"
@@ -129,8 +131,8 @@ const commonIssues = [
   {
     id: "door-too-narrow",
     category: "出入口",
-    title: "门宽度不足",
-    description: "门洞口开启后通行净宽小于0.90m，轮椅无法通过",
+    title: "门通行净宽不足",
+    description: "门开启后的通行净宽小于900mm，轮椅无法顺利通过",
     checkPoints: [
       "测量门开启后的通行净宽",
       "检查检票口、结算口是否设有轮椅通道"
@@ -144,7 +146,7 @@ const commonIssues = [
     id: "toilet-missing",
     category: "卫生间",
     title: "未设置无障碍卫生间",
-    description: "公共场所缺少无障碍厕所或第三卫生间",
+    description: "公共场所缺少无障碍厕所或无障碍厕位，未满足轮椅使用者如厕需求",
     checkPoints: [
       "检查公共建筑是否设有无障碍厕所",
       "检查是否设有第三卫生间（无性别厕所）"
@@ -157,10 +159,10 @@ const commonIssues = [
     id: "grab-bar-missing",
     category: "卫生间",
     title: "安全抓杆缺失或不规范",
-    description: "无障碍厕位内未安装安全抓杆，或抓杆高度、位置不符合标准",
+    description: "无障碍厕位内未安装安全抓杆，或抓杆高度、位置、尺寸不符合标准要求",
     checkPoints: [
-      "检查坐便器两侧是否安装L型抓杆",
-      "检查抓杆安装高度是否符合0.70m要求"
+      "检查坐便器两侧是否安装安全抓杆",
+      "检查抓杆安装高度是否为850mm-900mm"
     ],
     relatedClauses: [
       { standardId: "gb55019", standardName: "GB 55019-2021", clauseNumber: "3.2.2", text: "无障碍厕位应符合下列规定。", page: 7 }
@@ -171,7 +173,7 @@ const commonIssues = [
     category: "其他",
     title: "无障碍标识缺失",
     icon: `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1-1-4-1-5 2-8 2-4 1-4 1z"/><line x1="12" y1="17" x2="12" y2="22"/></svg>`,
-    description: "未设置国际通用无障碍标志，或标志位置、大小不符合要求",
+    description: "未设置国际通用无障碍标志，或标志位置、尺寸不符合要求",
     checkPoints: [
       "检查无障碍设施处是否设有无障碍标志",
       "检查标志是否从站立和座位角度都能看见"
@@ -186,7 +188,7 @@ const commonIssues = [
     category: "其他",
     title: "井盖/箅子孔洞过大",
     icon: `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><line x1="12" y1="3" x2="12" y2="21"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="5.6" y1="5.6" x2="18.4" y2="18.4"/><line x1="18.4" y1="5.6" x2="5.6" y2="18.4"/></svg>`,
-    description: "无障碍通道上的井盖、箅子孔洞宽度超过13mm，可能卡住轮椅或拐杖",
+    description: "无障碍通道上的井盖、箅子孔洞宽度大于13mm，可能卡住拐杖头或轮椅小轮",
     checkPoints: [
       "检查井盖孔洞宽度是否不大于13mm",
       "检查条状孔洞是否垂直于通行方向"
@@ -200,10 +202,11 @@ const commonIssues = [
     category: "其他",
     title: "扶手缺失或不连续",
     icon: `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 4v16"/><path d="M18 4v16"/><path d="M6 8h12"/><path d="M6 16h12"/></svg>`,
-    description: "楼梯、坡道未设置扶手，或扶手中断不连续",
+    description: "楼梯、坡道两侧未设置扶手，或扶手中断不连续、高度不符合标准",
     checkPoints: [
-      "检查楼梯两侧是否设有扶手",
-      "检查扶手是否连贯不断开"
+      "检查楼梯两侧是否设有连续扶手",
+      "检查扶手是否连贯不断开",
+      "检查扶手高度是否为850mm-900mm"
     ],
     relatedClauses: [
       { standardId: "gb55019", standardName: "GB 55019-2021", clauseNumber: "2.8.1", text: "满足无障碍要求的单层扶手的高度应为850mm～900mm；设置双层扶手时，上层扶手高度应为850mm～900mm，下层扶手高度应为650mm～700mm。", page: 5 }
@@ -214,10 +217,10 @@ const commonIssues = [
     category: "其他",
     title: "低位服务设施缺失",
     icon: `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="10" width="18" height="10" rx="2"/><path d="M7 10V7a5 5 0 0 1 10 0v3"/><circle cx="12" cy="15" r="1.5"/></svg>`,
-    description: "询问台、饮水机、自动售货机等未考虑轮椅使用者高度",
+    description: "服务台、饮水机、自动售货机等设施未考虑轮椅使用者的可达高度",
     checkPoints: [
-      "检查服务台是否有低位窗口",
-      "检查饮水机、自动售货机操作高度是否便于轮椅使用者"
+      "检查服务台是否设有低位服务窗口",
+      "检查低位服务台面高度是否在700mm-850mm范围内"
     ],
     relatedClauses: [
       { standardId: "gb55019", standardName: "GB 55019-2021", clauseNumber: "3.6.1", text: "为公众提供服务的各类服务台均应设置低位服务设施，包括问询台、接待处、业务台、收银台、借阅台等。", page: 8 }

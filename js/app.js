@@ -7,7 +7,7 @@
 
 /**
  * app.js
- * Main Application - initialization, data loading, PDF helper
+ * Main Application - initialization, data loading, PDF helper, theme, back-to-top
  */
 
 (function () {
@@ -19,13 +19,8 @@
    * @param {number} page - page number (1-based)
    */
   window.openPdf = function (pdfFile, page) {
-    // pdfFile is like "pdf/gb55019-2021.pdf"
-    // viewer.html is at "pdf/lib/web/viewer.html"
-    // From viewer.html, pdf/gb55019-2021.pdf is at "../../gb55019-2021.pdf" (go up 2 levels: web/ -> lib/ -> pdf/)
-    // Or we can use absolute path: "/pdf/gb55019-2021.pdf"
     let fileParam;
     if (pdfFile.startsWith('pdf/')) {
-      // Convert "pdf/xxx.pdf" to "../../xxx.pdf" relative to viewer.html
       fileParam = '../../' + pdfFile.substring(4);
     } else {
       fileParam = '../' + pdfFile;
@@ -86,48 +81,111 @@
     }
   }
 
+  /* ===== Theme Management ===== */
+
   /**
-   * Preload a specific PDF file when user clicks on it
-   * This works together with Service Worker to cache PDF files
-   * @param {string} pdfFile - the PDF file path to preload
+   * Initialize theme based on saved preference or system preference
    */
-  function preloadPdfFile(pdfFile) {
-    // Check if Service Worker is supported
-    if (!('serviceWorker' in navigator)) {
-      console.log('[Preload] Service Worker not supported');
-      return;
-    }
+  function initTheme() {
+    const toggleBtn = document.getElementById('theme-toggle');
+    if (!toggleBtn) return;
 
-    console.log('[Preload] Preloading PDF:', pdfFile);
+    // Update icon visibility
+    updateThemeIcon();
 
-    // Use HEAD request to trigger Service Worker caching without downloading full file
-    fetch(pdfFile, { method: 'HEAD' })
-      .then((response) => {
-        if (response.ok) {
-          console.log('[Preload] PDF preloaded successfully:', pdfFile);
-        }
-      })
-      .catch((err) => {
-        console.warn('[Preload] PDF preload error:', pdfFile, err.message);
-      });
+    toggleBtn.addEventListener('click', () => {
+      const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      const newTheme = isDark ? 'light' : 'dark';
+      setTheme(newTheme);
+    });
   }
 
   /**
-   * Check if a PDF file is already cached
-   * @param {string} pdfFile - the PDF file path to check
-   * @returns {Promise<boolean>}
+   * Set theme and persist to localStorage
+   * @param {string} theme - 'light' or 'dark'
    */
-  async function isPdfCached(pdfFile) {
-    if (!('caches' in window)) return false;
-    
-    try {
-      const cache = await caches.open('accessibility-standards-pdf-cache-v1');
-      const response = await cache.match(pdfFile);
-      return !!response;
-    } catch (e) {
-      return false;
+  function setTheme(theme) {
+    if (theme === 'dark') {
+      document.documentElement.setAttribute('data-theme', 'dark');
+    } else {
+      document.documentElement.removeAttribute('data-theme');
+    }
+    localStorage.setItem('theme', theme);
+    updateThemeIcon();
+  }
+
+  /**
+   * Update theme toggle icon based on current theme
+   */
+  function updateThemeIcon() {
+    const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+    const lightIcon = document.querySelector('.theme-icon-light');
+    const darkIcon = document.querySelector('.theme-icon-dark');
+    const toggleBtn = document.getElementById('theme-toggle');
+
+    if (lightIcon) lightIcon.style.display = isDark ? 'none' : 'block';
+    if (darkIcon) darkIcon.style.display = isDark ? 'block' : 'none';
+    if (toggleBtn) {
+      toggleBtn.setAttribute('aria-label', isDark ? '切换浅色模式' : '切换深色模式');
+      toggleBtn.setAttribute('title', isDark ? '切换浅色模式' : '切换深色模式');
     }
   }
+
+  /* ===== Back to Top ===== */
+
+  /**
+   * Initialize back-to-top button
+   */
+  function initBackToTop() {
+    const btn = document.getElementById('back-to-top');
+    if (!btn) return;
+
+    let ticking = false;
+    window.addEventListener('scroll', () => {
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          if (window.scrollY > 400) {
+            btn.classList.add('visible');
+          } else {
+            btn.classList.remove('visible');
+          }
+          ticking = false;
+        });
+        ticking = true;
+      }
+    }, { passive: true });
+
+    btn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
+
+  /* ===== Header Scroll Effect ===== */
+
+  /**
+   * Initialize header glassmorphism effect on scroll
+   */
+  function initHeaderScroll() {
+    const header = document.querySelector('.site-header');
+    if (!header) return;
+
+    let ticking = false;
+    window.addEventListener('scroll', () => {
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          if (window.scrollY > 10) {
+            header.classList.add('scrolled');
+          } else {
+            header.classList.remove('scrolled');
+          }
+          ticking = false;
+        });
+        ticking = true;
+      }
+    }, { passive: true });
+  }
+
+  /* ===== Main Init ===== */
 
   /**
    * Initialize the application
@@ -164,6 +222,11 @@
     // Common issues module uses embedded data, no async loading needed
     CommonIssues.init();
 
+    // Initialize UI features
+    initTheme();
+    initBackToTop();
+    initHeaderScroll();
+
     // Set up keyboard shortcut: Ctrl+K or Cmd+K to focus search
     document.addEventListener('keydown', (e) => {
       if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
@@ -184,9 +247,6 @@
         }
       }
     });
-
-    // Note: Removed automatic PDF preloading to avoid blocking mobile network
-    // PDF files are now cached on-demand when user clicks to view them
   }
 
   // Initialize when DOM is ready
